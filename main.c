@@ -6,7 +6,7 @@
 /*   By: ihuang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/01 22:51:54 by ihuang            #+#    #+#             */
-/*   Updated: 2018/11/08 21:34:33 by ihuang           ###   ########.fr       */
+/*   Updated: 2018/11/09 08:47:05 by ihuang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,8 +32,6 @@ int		main(int ac, char **av)
 	else
 		print_illegal_option(c);
 	free(pp);
-	while (1)
-		;
 	return (0);
 }
 
